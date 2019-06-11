@@ -18,7 +18,7 @@ class MyApp extends App {
     return (
       <Container>
         <Layout isAuthenticated={isAuthenticated} {...pageProps}>
-          <Component {...props} />pageProps
+          <Component {...pageProps} />
         </Layout>
 
         <style jsx global>
